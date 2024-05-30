@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1618588507085-c79565432917?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box {
+    margin-top: 100px;
+    padding: 20px 30px;
+    width: 300px;
+    height: 400px;
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    background:rgba(49, 49, 49, .2) ;
+    border:1px solid rgba(255, 255, 255, .5);
+}
+.box .form{
+    padding: 10px 20px;
+}
+.box .form h2{
+    text-align: center;
+
+    color: #fff;
+}
+.box .form form{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 5px;
+}
+.box .form form .inputbox input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #123412;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.box .form form .inputbox span{
+    position: absolute;
+    transform: translateY(-90px);
+    font-size: 14px;
+    color: #fff;
+}
+.box .form form .sub{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0cc0df;
+    cursor: pointer;
+}
